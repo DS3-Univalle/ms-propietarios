@@ -1,6 +1,0 @@
-com\proyectocabin\proyectojpa\service\CabinService.class
-com\proyectocabin\proyectojpa\repository\CabinRepository.class
-com\proyectocabin\proyectojpa\controller\HealthController.class
-com\proyectocabin\proyectojpa\model\Cabin.class
-com\proyectocabin\proyectojpa\controller\CabinController.class
-com\proyectocabin\proyectojpa\ProyectoJpaApplication.class
