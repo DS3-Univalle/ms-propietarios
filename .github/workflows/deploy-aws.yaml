@@ -1,4 +1,4 @@
-name: Deploy Spring Boot App to AWS Elastic Beanstalk
+name: Deploy Spring Boot App to AWS
 
 on:
   push:
