@@ -8,6 +8,6 @@
 # Etapa 2: Crear la imagen final
 FROM openjdk:17-jdk-alpine
 WORKDIR /app
-COPY --from=build /build/target/proyecto-jpa-0.0.1-SNAPSHOT.jar /app/app.jar
-EXPOSE 8080
+COPY target/*.jar /app/app.jar
+EXPOSE 8081
 CMD ["java", "-jar", "app.jar"]
