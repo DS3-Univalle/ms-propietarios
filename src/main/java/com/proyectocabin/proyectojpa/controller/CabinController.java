@@ -23,6 +23,12 @@ public class CabinController {
         Cabin saveCabin = cabinService.saveCabin(cabin);
         return new ResponseEntity<>(saveCabin, HttpStatus.CREATED);
     }
+
+    @GetMapping("/")
+    public ResponseEntity<String> getCabinEndpoint() {
+        String message = "Se conectó bien";
+        return new ResponseEntity<>(message, HttpStatus.OK);
+    }
     //Get a cabin by your ID
     @GetMapping("/cabin")
     public ResponseEntity<Cabin>getCabin(@RequestParam (name = "cabinID") long cabinID){
