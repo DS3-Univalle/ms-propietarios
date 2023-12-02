@@ -49,7 +49,7 @@ public class CabinController {
 
     //Delete an existing cabins in the database
     @DeleteMapping("/cabin")
-    public  ResponseEntity<Cabin> deleteCabin(@RequestParam(name = "productID") long cabinID){
+    public  ResponseEntity<Cabin> deleteCabin(@RequestParam(name = "cabinID") long cabinID){
         Cabin deleteCabin = cabinService.deleteCabin(cabinID);
         return new ResponseEntity<>(deleteCabin, HttpStatus.OK);
     }

@@ -1,7 +1,7 @@
 version: '3'
 services:
   spring-jpa:
-    image: propietarios
+    image: jpa-brian
     ports:
       - "8081:8081"
     depends_on:
@@ -10,8 +10,8 @@ services:
   mysql:
     image: mysql:5.7
     environment:
-      MYSQL_ROOT_PASSWORD: 8jJ8cC8gVEqtVJs7ntkw
-      MYSQL_DATABASE: bzif0dgvzjp0ltbihfzv
-      MYSQL_USER: uobhlq41ybfzh4h3
+      MYSQL_ROOT_PASSWORD: r4EophLAFcZEvQk8OEkV
+      MYSQL_DATABASE: brmq2i6wv3t0eid8lct2
+      MYSQL_USER: uaezul0idy3wecfz
     ports:
       - "3306:3306"
