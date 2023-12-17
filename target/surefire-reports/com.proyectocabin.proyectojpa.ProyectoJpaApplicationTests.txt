@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.proyectocabin.proyectojpa.ProyectoJpaApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.675 s - in com.proyectocabin.proyectojpa.ProyectoJpaApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.259 s - in com.proyectocabin.proyectojpa.ProyectoJpaApplicationTests
